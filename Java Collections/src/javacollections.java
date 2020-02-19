@@ -15,7 +15,7 @@
 
 import java.util.*;
 
-public class list {
+public class javacollections {
 
 	public static void main(String[] args)  {
 
