@@ -11,7 +11,7 @@
 //For example if your application saves data in an object of type People, 
 //you can store several People objects in a collection.
 
-
+//------------------------------------
 // When to use List, Set and Map in Java
 // https://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html
 // 1) If you need to access elements frequently by using the index then List is a way to go.
