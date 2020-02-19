@@ -128,7 +128,8 @@ public class javacollections {
 			queueNames.add("660 - Bryce Harper");
 			System.out.println(queueNames);
 			
-					
+			queueNames.remove("Barry Bond - 762");
+			System.out.println(queueNames);		
 	
 	}
 
