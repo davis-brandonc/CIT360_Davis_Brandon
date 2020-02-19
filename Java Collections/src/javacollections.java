@@ -1,3 +1,17 @@
+//What are collections
+//https://www.vogella.com/tutorials/JavaCollections/article.html
+//The Java language supports arrays to store several objects. An array is initialized with an
+//predefined size during instantiation. To support more flexible data structures the core Java
+//library provides the collection framework. A collection is a data structure which contains and
+//processes a set of data. The data stored in the collection is encapsulated and the access to the
+//data is only possible via predefined methods. For example the developer can add elements to an
+//collection via a method. Collections use internally arrays for there storage but hide the 
+//complexity of managing the dynamic size from the developer.
+
+//For example if your application saves data in an object of type People, 
+//you can store several People objects in a collection.
+
+
 // When to use List, Set and Map in Java
 // https://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html
 // 1) If you need to access elements frequently by using the index then List is a way to go.
