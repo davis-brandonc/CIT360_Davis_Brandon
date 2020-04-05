@@ -15,7 +15,7 @@ public class urlhttp
   public urlhttp()
   {
     try {
-      String myBYUI = "https://davisd-brandonc.github.io/topic1.html";
+      String myBYUI = "https://davis-brandonc.github.io/topic1.html";
       String results = doHttpUrlConnectionAction(myBYUI); //Can be used for input or output
       System.out.println(results);
     }
