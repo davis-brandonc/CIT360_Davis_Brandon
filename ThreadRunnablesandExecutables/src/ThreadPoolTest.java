@@ -5,7 +5,7 @@ public class ThreadPoolTest {
     
 	public static void main(String[] args) {
 		Executor anExecutor = Executors.newCachedThreadPool();
-		for(int numberCnt = 0; numberCnt < 3; numberCnt++){
+		for(int AtomicIntger = 0; AtomicIntger < 3; AtomicIntger++){
 			RunnableTest RunnableTest = 
             new RunnableTest();
 			anExecutor.execute(RunnableTest);
@@ -13,7 +13,7 @@ public class ThreadPoolTest {
 		try {
 			Thread.sleep(5000);
 			System.out.println("Program Awake");
-			for(int numberCnt = 0; numberCnt < 2; numberCnt++){
+			for(int AtomicIntger = 0; AtomicIntger < 2; AtomicIntger++){
 				RunnableTest aRunnableTest = 
                 new RunnableTest();
 				anExecutor.execute(aRunnableTest);
